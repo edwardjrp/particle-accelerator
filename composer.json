@@ -1,0 +1,26 @@
+{
+  "name": "crowd_twist/particle_accelerator",
+  "license": "proprietary",
+  "type": "library",
+  "description": "Particle accelerator",
+  "version": "0.0.1",
+  "authors": [
+    {
+      "name": "Edward Rodriguez",
+      "email": "edwardjrp@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "CrowdTwist\\ParticleAccelerator\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "symfony/var-dumper": "^3.1"
+  }
+}
